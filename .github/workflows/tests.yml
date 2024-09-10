@@ -5,9 +5,11 @@ on:
     branches: 
       - 'master'
       - 'failing-tests'
+      - 'fail-tests3'
   pull_request:
     branches:
       - 'main'
+      - 'fail-tests3'
 
 jobs: 
   tests:

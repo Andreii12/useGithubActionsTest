@@ -6,9 +6,11 @@ on:
       - 'master'
       - 'failing-tests'
       - 'fail-tests2'
+      - 'fail-tests3'
   pull_request:
     branches:
       - 'main'
+      - 'fail-tests3'
 
 jobs: 
   hello: 
