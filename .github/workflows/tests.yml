@@ -4,10 +4,10 @@ on:
   push:
     branches: 
       - 'master'
+      - 'failing-tests'
   pull_request:
     branches:
       - 'main'
-      - 'failing-tests'
 
 jobs: 
   tests:
