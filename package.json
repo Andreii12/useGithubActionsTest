@@ -10,10 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "ava": "^5.1.0",
-    "eslint": "^8.44.0",
-    "prettier": "^2.8.8",
-    "husky": "^8.0.0"
+    "ava": "^5.1.0"
   },
   "dependencies": {
     "lint-staged": "^13.2.3"
